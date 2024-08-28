@@ -14,3 +14,11 @@ for (let i = 0; i < gridSize * gridSize; i++) {
     gridItem.style.height = `${gridItemWidth}px`;
     gridContainer.appendChild(gridItem);
 }
+
+const gridItems = document.querySelectorAll(".grid-item");
+
+gridItems.forEach((gridItem) => {
+    gridItem.addEventListener("mouseenter", () => {
+        gridItem.style.backgroundColor = "#B68990"
+    });
+});

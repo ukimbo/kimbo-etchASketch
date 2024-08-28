@@ -13,7 +13,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    object-fit: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 96px;
+    padding: 0px;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.grid {
+    text-align: center;
 }
 
 .grid-container {
@@ -26,5 +37,5 @@ body {
 }
 
 .grid-item {
-    background-color: white;
+    background-color: #45464A;
 }
