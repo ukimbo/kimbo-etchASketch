@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+body {
+    background-color: #2b2e3b;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    height: 720px;
+    border: 16px solid #6a92a6;
+    border-radius: 16px;
+}
+
+.grid-item {
+    background-color: white;
+}
