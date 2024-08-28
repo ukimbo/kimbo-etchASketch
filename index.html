@@ -8,12 +8,29 @@
         <script src="script.js" defer></script>
     </head>
     <body>
+        <h1>Etch-A-Sketch</h1>
         <div class="content">
-            <div class="menu"></div>
-            <div class="grid">
-                <h1> Etch-A-Sketch</h1>
-                <div class="grid-container"></div>
+            <div class="menu">
+                <button type="button" class="colorBtn">
+                    Change Color
+                    <div class="colorShow"></div>
+                </button>
+                <input type="color" id="colorPicker" style="display: none" />
+                <button class="clearBtn">Clear Grid</button>
+                <button type="button" class="eraserBtn">Eraser</button>
+                <div class="slider">
+                    <p>Grid: <span id="sliderValue"> 16 x 16</span></p>
+                    <input
+                        type="range"
+                        min="2"
+                        max="100"
+                        value="16"
+                        id="gridRange"
+                    />
+                </div>
             </div>
+
+            <div class="grid-container"></div>
         </div>
     </body>
 </html>
